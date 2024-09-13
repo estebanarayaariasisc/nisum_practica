@@ -1,0 +1,63 @@
+[
+  "66794e95a16ee3b79bb93088",
+  "66794e96a16ee3b79bb93089",
+  "66794ebfa16ee3b79bb9308a",
+  "66794ec3a16ee3b79bb9308b",
+  "6679504ea16ee3b79bb9308c",
+  "66795076a16ee3b79bb9308d",
+  "66795078a16ee3b79bb9308e",
+  "66795078a16ee3b79bb9308f",
+  "667b210aa16ee3b79bb93090",
+  "667b30c4a16ee3b79bb93091"
+]
+
+[
+  {
+    "name": "Aries",
+    "da": "Valiente: No teme enfrentar desafíos; Energético: Lleno de vitalidad y entusiasmo; Impulsivo: Actúa sin considerar las consecuencias."
+  },
+  {
+    "name": "Taurus",
+    "da": "Práctico: Enfocado en lo tangible y realista; Paciente: Puede esperar el tiempo necesario para alcanzar sus metas; Terco: Se aferra a sus opiniones y decisiones."
+  },
+  {
+    "name": "Gemini",
+    "da": "Versátil: Adaptable y maneja múltiples tareas o intereses; Curioso: Tiene una curiosidad insaciable y ama aprender cosas nuevas; Inquieto: Tiene dificultades para concentrarse en una sola cosa durante mucho tiempo."
+  },
+  {
+    "name": "Cancer",
+    "da": "Emocional: Profundamente sensible y afectuoso; Protector: Cuida a sus seres queridos con gran devoción; Introvertido: Prefiere la tranquilidad del hogar a las actividades sociales."
+  },
+  {
+    "name": "Leo",
+    "da": "Generoso: Siempre dispuesto a dar y compartir; Creativo: Tiene una gran imaginación y habilidad artística; Dominante: Le gusta ser el centro de atención y liderar."
+  },
+  {
+    "name": "Virgo",
+    "da": "Meticuloso: Presta atención a los detalles y busca la perfección; Analítico: Pensador lógico y crítico; Modesto: Prefiere trabajar entre bastidores sin buscar elogios."
+  },
+  {
+    "name": "Libra",
+    "da": "Equilibrado: Busca la armonía y la justicia en todas las áreas de la vida; Diplomático: Hábil en mediar y resolver conflictos; Sociable: Disfruta de la compañía de otros e interacciones sociales."
+  },
+  {
+    "name": "Scorpio",
+    "da": "Intenso: Vive con gran profundidad emocional y pasión; Secreto: Mantiene sus pensamientos y sentimientos más íntimos para sí mismo; Determinado: Persistente en alcanzar sus metas."
+  },
+  {
+    "name": "Sagittarius",
+    "da": "Aventurero: Busca nuevas y emocionantes experiencias; Optimista: Siempre ve el lado positivo de las cosas; Independiente: Valora la libertad y la autonomía."
+  },
+  {
+    "name": "Capricorn",
+    "da": "Ambicioso: Enfocado en lograr el éxito y alcanzar metas; Responsable: Toma en serio los compromisos y obligaciones; Realista: Enfrenta la vida con una perspectiva práctica y lógica."
+  },
+  {
+    "name": "Aquarius",
+    "da": "Innovador: Siempre busca nuevas ideas y formas de mejorar las cosas; Humanitario: Se preocupa por el bienestar de la humanidad y busca hacer el bien; Excéntrico: Tiene una forma de pensar y actuar que puede ser inusual para los demás."
+  },
+  {
+    "name": "Pisces",
+    "da": "Compasivo: Tiene gran empatía y comprensión hacia los demás; Imaginativo: Posee una rica vida interior y creatividad; Escapista: A veces prefiere retirarse de la realidad para encontrar consuelo en su mundo interior."
+  }
+]

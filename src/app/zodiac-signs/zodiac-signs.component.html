@@ -1,0 +1,40 @@
+<mat-card class="main-card">
+    <mat-card-content>
+
+        <div *ngIf="loading" class="loading-container">
+            <mat-spinner diameter="30"></mat-spinner>
+        </div>
+
+        <div class="grid-container" *ngIf="!loading">
+            <div class="card-container" *ngFor="let sign of signs; let i = index">
+                <mat-card class="fixed-card">
+
+                    <mat-card-header class="card-header">
+                        <img src="images/{{sign.name}}.png" alt="{{sign.name}}" class="header-image" (error)="setDefaultImage($event)" />
+                        <mat-card-title>{{sign.name}}</mat-card-title>
+                    </mat-card-header>
+
+                    <mat-divider></mat-divider>
+
+                    <mat-card-content class="card-content">
+                        {{sign.da}}
+                    </mat-card-content>
+
+                    <mat-card-actions class="card-footer">
+                        <button mat-flat-button color="warn" (click)="deleteSign(i)">Eliminar</button>
+                        <button mat-flat-button (click)="openEditDialog(sign)">Editar</button>
+                        <button class="more-button" mat-button (click)="goToSignInfo(sign.name)">Saber mas ></button>
+                    </mat-card-actions>
+
+                </mat-card>
+            </div>
+        </div>
+    </mat-card-content>
+
+    <mat-card-header *ngIf="!loading" class="main-card-footer">
+        <button mat-flat-button color="warn" (click)="cleanLocalStorage()" class="back-button">Reiniciar los datos</button>
+        <button matTooltip="Info about the action" (click)="openEditDialog(null)" type="submit" class="add-button">+</button>
+    </mat-card-header>
+
+    
+</mat-card>

@@ -1,0 +1,22 @@
+<mat-dialog-content>
+  <h3 mat-dialog-title class="dialog-title">Editar/Agregar signo</h3>
+
+  <form #signForm="ngForm">
+    <mat-form-field appearance="fill" class="dialog-form">
+      <mat-label>Nombre</mat-label>
+      <input matInput [(ngModel)]="sign.name" name="name" #name="ngModel" required />
+      <mat-error *ngIf="name.invalid">El nombre es requerido.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="dialog-form">
+      <mat-label>Descripción</mat-label>
+      <textarea matInput [(ngModel)]="sign.da" name="description" #description="ngModel" class="dialog-textarea" required></textarea>
+      <mat-error *ngIf="description.invalid">La descripción es requerida.</mat-error>
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="closeDialog()">Cancelar</button>
+  <button mat-button color="warn" (click)="editSign()" [disabled]="!sign.name || !sign.da">Guardar</button>
+</mat-dialog-actions>
